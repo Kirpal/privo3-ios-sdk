@@ -42,7 +42,7 @@ struct VerificationView : View {
         return .init(url: verificationUrl,
                      showCloseIcon: false,
                      printCriteria: "/print",
-                     finishCriteria: "verification-loading",
+                     finishCriteria: "/verification-loading",
                      onFinish: { url in
                  guard let items = URLComponents(string: url)?.queryItems,
                        let eventId = items.first(where: {$0.name == "privo_events_id"})?.value else {
