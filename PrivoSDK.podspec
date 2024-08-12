@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
     spec.homepage      = 'https://github.com/Privo/privo3-ios-sdk'
     spec.authors       = { 'Privo' => '' }
     spec.summary       = 'PRIVO SDK'
-    spec.source        = { :git => 'https://github.com/Privo/privo3-ios-sdk.git', :tag => '2.30.0' }
+    spec.source        = { :git => 'https://github.com/Privo/privo3-ios-sdk.git', :tag => '2.32.1' }
     spec.source_files  = 'Sources/PrivoSDK/**/*'
     spec.module_name   = 'PrivoSDK'
     spec.swift_version = '5.3'
